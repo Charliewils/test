@@ -1,0 +1,3 @@
+/Users/xu/Desktop/CS/ex/build/CMakeFiles/ex.dir
+/Users/xu/Desktop/CS/ex/build/CMakeFiles/edit_cache.dir
+/Users/xu/Desktop/CS/ex/build/CMakeFiles/rebuild_cache.dir

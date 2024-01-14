@@ -1,0 +1,7 @@
+(define (dots? s)
+  (cond ((null? s) 0)
+	((integer? (car s))
+	 (cond ((integer? (cdr s)) 1)
+	       ((null? (cdr s)) 0)
+	       (else (dots? (cdr (cdr s))))))
+	(else (+ (dots? (car s)) (dots? (cdr s))))))

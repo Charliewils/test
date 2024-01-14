@@ -1,0 +1,6 @@
+(define (count-tail lst x)
+  (define (count-help lst x count)
+    (cond ((null? lst) count)
+	  ((= (car lst) x) (count-help (cdr lst) x (+ 1 count)))
+	  (else (count-help (cdr lst) x count))))
+  (count-help lst x 0))
